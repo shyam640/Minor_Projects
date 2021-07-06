@@ -7,6 +7,7 @@ const chalk = require('chalk');
 const path = require('path');
 const hbs = require('hbs');
 const app = express();
+const port = process.env.PORT || 3000;
 
 // Get current file and file's directory path
 // console.log(__dirname);
@@ -87,6 +88,6 @@ app.get('*', (req, res) => {
 
 
 // starting server
-app.listen(3000, () => {
-   console.log(chalk.green('Server is running on port 3000'));
+app.listen(port, () => {
+   console.log(chalk.green('Server is running on port'+port));
 });
