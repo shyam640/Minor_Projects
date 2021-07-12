@@ -3,30 +3,16 @@ This folder contains a Weather App with NodeJS and is a complete weather app fro
 
 
 ## NPM modules Required
-1. ```mongoose``` : Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
-      - Installing Mongoose :- ```npm install mongoose -g```
-      - Read More :- [npm mongoose](https://www.npmjs.com/package/mongoose)
+1. ```hbs``` : Express.js view engine for handlebars.js
+      - Installing hbs :- ```npm install hbs -g```
+      - Read More :- [npm hbs](https://www.npmjs.com/package/hbs)
 2. ```chalk``` : Chalk helps you to make your command line more awesome by beautifying it with colors.
       - Installing Chalk :- ```npm install chalk -g```
       - Read more :- [npm chalk](https://www.npmjs.com/package/chalk)
-3. ```jsonwebtoken``` : JSON Web Token is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims. The tokens are signed either using a private secret or a public/private key.
-      - Installing JSON Web Token :- ```npm install jsonwebtoken -g```
-      - Read more :- [npm jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-4. ```validator``` : Express-validator is a set of express.js middlewares that wraps validator.js validator and sanitizer functions.
-      - Installing Validator :- ```npm install validator -g```
-      - Read more :- [npm validator](https://www.npmjs.com/package/validator)
-5. ```bcrypt``` : bcrypt is a password-hashing function.
-      - Installing Bcrypt :- ```npm install bcrypt -g```
-      - Read more :- [npm bcrypt](https://www.npmjs.com/package/bcrypt)
-6. ```express``` : Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-      - Installing Express :- ```npm install express -g```
-      - Read more :- [npm express](https://www.npmjs.com/package/express)
-7. ```multer``` : Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files. It is written on top of busboy for maximum efficiency.
-      - Installing Multer :- ```npm install multer -g```
-      - Read more :- [npm multer](https://www.npmjs.com/package/multer)
-8. ```sharp``` : The typical use case for this high speed Node.js module is to convert large images in common formats to smaller, web-friendly JPEG, PNG, WebP and AVIF images of varying dimensions.
-      - Installing Sharp :- ```npm install sharp -g```
-      - Read more :- [npm sharp](https://www.npmjs.com/package/sharp)
+3. ```path``` : This is an exact copy of the NodeJS ’path’ module published to the NPM registry.
+      - Installing Path :- ```npm install path -g```
+      - Read more :- [npm path](https://www.npmjs.com/package/path)
+
 
 ## How to view it live working
 1. Fork and download this repository as zip in your local system.
