@@ -28,6 +28,17 @@ This folder contains a Weather App with NodeJS and is a complete weather app fro
       - Installing Sharp :- ```npm install sharp -g```
       - Read more :- [npm sharp](https://www.npmjs.com/package/sharp)
 
+## How to view it live working
+1. Fork and download this repository as zip in your local system.
+2. Copy the weather app folder and save it at another place.
+3. open the folder in vs code or any other editor.
+4. From the terminal install all node modules as ``` npm i <nameofmodule> ```
+5. Now from terminal run ``` npm run start ```
+6. Now goto ```localhost:3000``` in your browser.
+
+
+![Weather App Image](https://user-images.githubusercontent.com/69409625/125270134-ff837600-e326-11eb-84b9-e314eff75663.png)
+
 
 
 ### Special Note
