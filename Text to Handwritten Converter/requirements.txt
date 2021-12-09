@@ -1,0 +1,4 @@
+fpdf==1.7.2
+numpy==1.19.2
+opencv-python==4.5.5.58
+pyinstaller==4.7

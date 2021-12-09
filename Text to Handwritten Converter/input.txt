@@ -1,0 +1,13 @@
+Starting.
+What percent of quality (between 40 to 100) you want in output file? 80
+Text Reading Completed.
+Saved Page:  1
+Adding lines.
+Saving the pdf.
+Done.Starting.
+What percent of quality (between 40 to 100) you want in output file? 80
+Text Reading Completed.
+Saved Page:  1
+Adding lines.
+Saving the pdf.
+Done.
