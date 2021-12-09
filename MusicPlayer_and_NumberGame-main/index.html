@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me | its_shyam640</title>
+  </head>
+  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0.918);
+      font-family: monospace;
+      color: rgb(0, 255, 0);
+      line-height: normal;
+      font-size: 16px;
+      vertical-align: baseline;
+      letter-spacing: normal;
+      word-spacing: 0px;
+      font-weight: 400;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+      text-decoration: rgb(0, 255, 0);
+      text-align: left;
+      text-indent: 0px;
+    }
+
+    .buttons{
+      display: inline-flex;
+    }
+
+    
+    .first-variable {
+      color: #60c0bb;
+    }
+    .string-highlight {
+      color: rgba(146, 26, 150, 0.8);
+    }
+    .second-variable {
+      color: #9340ff;
+    }
+    .skills {
+      color: rgba(255, 0, 0, 0.8);
+    }
+
+    #box {
+      font-size: 2em;
+      margin: 0;
+      font-family: "Courier New";
+    }
+
+    #box:after {
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    } 
+
+    .info{
+       color: white
+    }
+    .iknow{
+       color: rgb(217, 231, 20);
+    }
+    .addme{
+       color: rgb(162, 0, 255);
+    }
+    .code{
+       color: rgb(255, 0, 85);
+    }
+    .coding-platform{
+       color: grey;
+    }
+    .connect{
+       color: brown;
+    }
+
+    #box{
+       display: flexbox;
+       box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
+      0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+      padding: 20px;
+      width: auto;
+      height:auto;
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+    }
+
+    .back-button{
+      box-shadow: 0 0 17px 3px #ffff01,0 0 4px 2px #ffff01;
+      border-radius: 7px;
+      padding: 10px;
+      margin: 10px;
+      font-family: monospace;
+      font-size: 24px;
+      display: flex;
+    }
+    
+    a{
+      text-decoration: none;
+      color: black;
+      font-weight: 900;
+    }
+
+    @media (max-width:700px){
+      #box{
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+      }
+      .back-button{
+        font-size:18px;
+        padding:5px;
+        margin:2px;
+      }
+    }
+    
+    @media (max-width:590px){
+      #box{
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .back-button{
+        font-size:14px;
+        padding:1px;
+        margin:1px;
+      }
+    }
+    @media (max-width:420px){
+      #box{
+        font-size: 8px;
+        padding: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .back-button{
+        font-size:12px;
+        padding:1px;
+        margin:1px;
+      }
+    }
+
+  </style>
+  <body>
+    <div class="buttons">
+      <button class="back-button">
+        <a href="musicplayer.html">Go To Music Player</a>
+      </button>
+      <button class="back-button">
+        <a href="NumberGame.html">Go To NumberGame</a>
+      </button>
+    </div>
+    <pre id="box">
+      <span class="var-highlight first-variable">var</span> <span class="info">General_Information</span> = {
+               name: <span class="string-highlight">'Shyam Sundar Vashishtha'</span>,
+               username: <span class="string-highlight">'@its_shyam640'</span>,
+               course: <span class="string-highlight">'BTech. CSE (Hons)'</span>,
+               location: <span class="string-highlight">'Gwalior,Madhya Pradesh,India,Earth'</span>,
+      }; 
+      <br><br>
+      <span class="var-highlight second-variable">let</span> <span class="iknow">What_I_Know</span> = {
+               languages:[<span class="string-highlight skills">'C and C++'</span>,
+                           <span class="string-highlight skills">'JavaScript'</span>,
+                           <span class="string-highlight skills">'HTML and CSS'</span>,
+                           <span class="string-highlight skills">'Java and Python (little-bit)'</span>
+                           <span class="string-highlight skills">'Android'</span>]
+               FrameWorks:[<span class="string-highlight skills">'BootStrap'</span>,
+                           <span class="string-highlight skills">'React(learning)'</span>
+                           <span class="string-highlight skills">'NodeJs(leaning)'</span>],
+               DataBases:[<span class="string-highlight skills">'Firebase'</span>,
+                           <span class="string-highlight skills">'Comming Soon...'</span>
+                           <span class="string-highlight skills">'Comming Soon...'</span>];
+      };
+      <br><br>
+
+      <span class="var-highlight second-variable">let</span> <span class="code">Find_Me_On_Coding_Platforms</span> = {
+         Major : [<span class="string-highlight coding-platform">'CodeChef: its_shyam640'</span>,
+                  <span class="string-highlight coding-platform">'HackerRank: its_shyam640'</span>,
+                  <span class="string-highlight coding-platform">'HackerEarth: its_shyam640'</span>,
+                  <span class="string-highlight coding-platform">'LeetCode: its_shyam640'</span>],
+         Other : [ <span class="string-highlight coding-platform">'username : its_shyam640'</span>]
+         };
+         <br><br>
+
+      <span class="var-highlight second-variable">const</span> <span class="addme">Connect_With_Me_On</span> = {
+         Social Media : [<span class="string-highlight connect"><a href="">'Linkedin'</a></span>,
+                        <span class="string-highlight connect"><a href="">'Github'</a></span>,
+                        <span class="string-highlight connect"><a href="">'Instagram</a></span>,
+                        <span class="string-highlight connect"><a href="">'Fackbook'</a></span>],
+         For Work : [ <span class="string-highlight connect">'Email: shyamvashishtha640@gmail.com'</span>,
+                     <span class="string-highlight connect">'Phone : +91 88177 19155'</span>],
+         };
+   </pre>
+  </body>
+  <script>
+     // lets create a function to type automatically
+    function AutoTyper(e) {
+      var HTML = e.innerHTML;       // If some thing is already written then do  not remove that
+      e.innerHTML = "";             
+      var cursorPosition = 0, tag = "", writingTag = false, tagOpen = false, typeSpeed = 5, tempTypeSpeed = 0;
+
+      var type = function () {
+         // checking if writing tag is true or not
+         if (writingTag === true) {
+            tag += HTML[cursorPosition];
+         }
+        if (HTML[cursorPosition] === "<") {
+          tempTypeSpeed = 0;
+          if (tagOpen) {
+            tagOpen = false;
+            writingTag = true;
+          } else {
+            tag = "";
+            tagOpen = true;
+            writingTag = true;
+            tag += HTML[cursorPosition];
+          }
+        }
+        if (!writingTag && tagOpen) {
+          tag.innerHTML += HTML[cursorPosition];
+        }
+        if (!writingTag && !tagOpen) {
+          if (HTML[cursorPosition] === " ") {
+            tempTypeSpeed = 0;
+          } else {
+            tempTypeSpeed = Math.random() * typeSpeed + 50;
+          }
+          e.innerHTML += HTML[cursorPosition];
+        }
+        if (writingTag === true && HTML[cursorPosition] === ">") {
+          tempTypeSpeed = Math.random() * typeSpeed + 50;
+          writingTag = false;
+          if (tagOpen) {
+            var newSpan = document.createElement("span");
+            e.appendChild(newSpan);
+            newSpan.innerHTML = tag;
+            tag = newSpan.firstChild;
+          }
+        }
+
+        cursorPosition += 1;
+        if (cursorPosition < HTML.length - 1) {
+          setTimeout(type, tempTypeSpeed);
+        }
+      };
+
+      return {
+        type: type,
+      };
+    }
+
+    var typer = document.getElementById("box");
+    new_box = AutoTyper(typer);
+    new_box.type();
+
+    // adding automatic scroll to bottom
+    var box = document.getElementById('box');
+    box.scrollIntoView(top);
+  </script>
+</html>
